@@ -210,8 +210,6 @@ footer {
     background-color: #26262657;
     color: #f8fafc;
     padding: 1rem;
-    position: fixed;
-    bottom: 0;
     width: 100%;
     transition: background-color 0.3s;
 }
@@ -223,4 +221,11 @@ footer a {
 
 footer:hover {
     background-color: #262626a1; 
+}
+
+@media screen and (max-width: 768px) {
+    footer {
+        position: static;
+        margin-top: 1rem; 
+    }
 }
