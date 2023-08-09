@@ -28,6 +28,7 @@ body {
     flex-direction: column;
     gap: 2rem;
     padding: 2rem;
+    margin-bottom: 3rem;
     color: #f8fafc;
     background-color: #26262652;
     border-radius: 8px;
@@ -206,6 +207,7 @@ body {
 }
 
 footer {
+    position: relative;   
     text-align: center;
     background-color: #26262657;
     color: #f8fafc;
