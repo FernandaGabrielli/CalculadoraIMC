@@ -210,6 +210,8 @@ footer {
     background-color: #26262657;
     color: #f8fafc;
     padding: 1rem;
+    position: fixed;
+    bottom: 0;
     width: 100%;
     transition: background-color 0.3s;
 }
